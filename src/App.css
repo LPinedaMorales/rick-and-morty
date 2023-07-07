@@ -2,8 +2,10 @@
    text-align: center;
 }
 .App-header{
-  background: url(./img/27342-rick-y-morty.jpg)  no-repeat center center fixed ;
+  min-height: 100vh;
+  background: url(./img/wallpaperbetter\ \(1\).jpg)  no-repeat center center fixed ;
   background-size: cover;
+
 }
 .cards {
    position: relative;

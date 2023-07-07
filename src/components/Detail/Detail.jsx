@@ -2,6 +2,7 @@ import axios from "axios";
 import {Link, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { useState } from "react";
+import style from "./Detail.module.css"
 
 const Detail = ()=>{
     const {id}= useParams();
@@ -19,7 +20,7 @@ const Detail = ()=>{
     }, [id]);
 
     return(
-        <div>
+        <div className={style.contenedor}>  
             <h1>Name :{character.name} </h1>
             <h1>Status:{character.status}</h1>
             <h1>Species:{character.species}</h1>
